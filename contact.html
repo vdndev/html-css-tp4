@@ -24,16 +24,15 @@
             </nav>
         </header>
         <section>
-            <h2>Nous contacter</h2>
             <form method="POST" action="register_contact.php">
                 <fieldset>
                     <legend>Votre commentaire:</legend>
                     <div>
-                        <label for="name">Nom:</label>
+                        <label for="name">Nom: <span class="required">*</span> </label>
                         <input type="text" name="name" id="name" placeholder="Ex: Thomas" minlength="2" maxlength="20" required>
                     </div>
                     <div>
-                        <label for="email">Email:</label>
+                        <label for="email">Email: <span class="required">*</span> </label>
                         <input type="email" name="email" id="email" placeholder="Ex: mon.adresse@monfai.fr" required>
                     </div>
                     <div>
